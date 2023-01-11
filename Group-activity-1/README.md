@@ -77,6 +77,34 @@ to run JavaScript directly without a browser, you need to install Node.JS.
 
 Installing Node.js on macOS follows almost the same procedure as Windows. All you have to do is to download the installation file found [here](#links). The installer will walk you through the rest.
 
+###
+
+- Older MacOS (bash terminal)
+
+```bash
+            mkdir ~/.npm-packages
+            npm config set prefix ~/.npm-packages
+            echo NPM_PACKAGES="${HOME}/.npm-packages" >> ${HOME}/.bashrc
+            echo prefix=${HOME}/.npm-packages >> ${HOME}/.npmrc
+            echo NODE_PATH=\"\$NPM_PACKAGES/lib/node_modules:\$NODE_PATH\" >> ${HOME}/.bashrc
+            echo PATH=\"\$NPM_PACKAGES/bin:\$PATH\" >> ${HOME}/.bashrc
+            echo source "~/.bashrc" >> ${HOME}/.bash_profile
+            source ~/.bashrc
+```
+
+- Newer MacOS (zsh terminal)
+
+```bash
+            mkdir ~/.npm-packages
+            npm config set prefix ~/.npm-packages
+            echo NPM_PACKAGES="${HOME}/.npm-packages" >> ${HOME}/.zshrc
+            echo prefix=${HOME}/.npm-packages >> ${HOME}/.npmrc
+            echo NODE_PATH=\"\$NPM_PACKAGES/lib/node_modules:\$NODE_PATH\" >> ${HOME}/.zshrc
+            echo PATH=\"\$NPM_PACKAGES/bin:\$PATH\" >> ${HOME}/.zshrc
+            echo source "~/.zshrc" >> ${HOME}/.zsh_profile
+            source ~/.zshrc
+```
+
 ## Visual Studio Code
 
 Our code editor of choice in this course is Microsoft's Visual Studio Code.
