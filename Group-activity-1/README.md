@@ -77,7 +77,7 @@ to run JavaScript directly without a browser, you need to install Node.JS.
 
 Installing Node.js on macOS follows almost the same procedure as Windows. All you have to do is to download the installation file found [here](#links). The installer will walk you through the rest.
 
-To add node to your path:
+NPM configuration:
 
 1. Older MacOS (bash terminal)
 
