@@ -1,5 +1,10 @@
 # Schedule
 
+```bash
+git clone https://github.com/Web-sovelluskehitys-1/week1.git
+git pull
+```
+
 ## topics
 
 - Course Introduction
