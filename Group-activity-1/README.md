@@ -9,7 +9,7 @@ Install all of these:
 1. Git / GitHub
 2. Node.JS
 3. Visual Studio Code
-4. Google Chrome
+4. Google Chrome (Recommended)
 5. Homebrew (For Mac Only)
 
 ## Git
