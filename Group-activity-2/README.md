@@ -5,7 +5,11 @@
 ## Task 1
 
 - Difference between [V8](<https://en.wikipedia.org/wiki/V8_(JavaScript_engine)>) and [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey)
+--> V8 is Google's open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node.js, among others.
+--> SpiderMonkey is Mozilla's JavaScript and WebAssembly Engine, used in Firefox, Servo and various other projects. It is written in C++, Rust and JavaScript.
+
 - Difference between [V8](<https://en.wikipedia.org/wiki/V8_(JavaScript_engine)>) and [Blink](<https://en.wikipedia.org/wiki/Blink_(browser_engine)>)
+--> Blink is Google Chrome's rendering engine (browser engine), V8 is the JavaScript Engine used within Blink, and Chromium is the browser project that holds them all together.
 
 ## Task 2
 

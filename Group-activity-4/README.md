@@ -55,7 +55,7 @@ Navigate to it in command line, or open it in your file explorer, right-click an
 
 ---
 
-## Initialize Git
+## Initialize Git --> Created in another location on PC!
 
 Once you have navigated to the correct folder, you can initialize Git on that folder:
 
@@ -75,7 +75,7 @@ Git creates a hidden folder to keep track of changes.
 Insert the missing part of the command to check which version of Git (if any) is installed.
 
 ```bash
-git ...
+git --version...
 
 ```
 
@@ -246,7 +246,7 @@ Now all 3 files are added to the Staging Environment, and we are ready to do our
 Add index.html to the Stating Environment:
 
 ```bash
-git ... index.html
+git add index.html
 ```
 
 ---
@@ -350,7 +350,7 @@ To view the history of commits for a repository, you can use the `log` command:
 Commit the changes to the current repository with the message "First release!
 
 ```bash
-git  ... ...  "First release!"
+git  commit -m  "First release!"
 
 ```
 
@@ -405,7 +405,8 @@ To list all possible commands, use the `help --all` command:
 Show the possible options for the `status` command in command line:
 
 ```bash
-git ... ...
+git status
+git status short
 ```
 
 ---

@@ -56,10 +56,18 @@ matti@matti.com
 Refer to the following [article](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 
 - What is a package.json file?
+--> package.json includes the packages and applications the project depends on, information about its unique source control, and specific metadata like the project's name, description, and author.
+
 - Difference between npm and node
+--> Node is a framework that runs JavaScript code on machine whilst npm is a package manager. By using npm we can install and remove javascript packages also known as node modules.
+
 - Explain the following command `npm init --yes`
+--> Can be used to set up a new or existing npm package (package.json).
+
 - How do you install third party modules?
-- Install express using the following command: `npm install express`
+--> npm init --yes
+--> npm install <name of module>
+- Install express using the following command: `npm install express` --> OK
 
 ## Links
 
